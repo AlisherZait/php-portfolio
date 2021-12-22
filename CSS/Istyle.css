@@ -1,0 +1,358 @@
+body{
+    background-color:#000000; 
+    margin:10px 10px 10px 10px ;
+    font-family: Montserrat;
+
+}
+
+
+
+
+.logo{
+    width:50px; 
+    height:50px; 
+    margin:30px;
+    float: left;
+}
+.logo img{
+    width:150px; 
+    height:150px;
+    float: left; 
+  
+    
+}
+.logifont{
+    font-size: 30px;
+    font-family:montserrat;
+    font-style: italic;
+    float: left;
+  
+    color:rgb(170, 12, 12);
+    margin-left:-20px ;
+    margin-top: -60px;
+    float: left;
+    -webkit-transform: rotate(-91deg);
+    -moz-transform: rotate(-91deg); 
+    -o-transform: rotate(-92deg); 
+    -ms-transform: rotate(-92deg); 
+     transform: rotate(-91deg); 
+   
+}
+.header{
+    width:1300px;
+    height:200px;
+   
+    float: left;
+}
+.menu{
+    width:650px;
+    height:100px;
+
+    margin: -70px;
+    margin-left: 550px;
+    margin-top: -150px;
+    float: left;
+}
+a{
+    color: red;
+    font-size: 25px; 
+}
+#navbar {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  #navbar li { display: inline; }
+  #navbar {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    border: 2px solid red;
+    border-radius: 20px 5px;
+    width: 750px;
+    text-align: center;
+    background-color: black;
+  }
+  #navbar a {
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    width: 200px;
+  }
+  #navbar a:hover {
+    border-radius: 20px 5px;
+    background-color: red;
+  }
+
+
+.saidbar{
+    width: 490px;
+    height: 400px;
+    float: left;
+    /*border:2px solid #aaa;*/
+}
+
+.saidbar video{
+    width: 500px;
+    height: 400px;
+   
+}
+
+/*верх кнопка*/
+div.scrollup {
+  background: url("../media/Img/up3.png") no-repeat top left;
+  height: 60px;
+  width: 60px;
+  bottom: 30px;
+  right: 30px;
+  cursor: pointer;
+  display: none;
+  position: fixed;
+  z-index: 999;
+}
+div.scrollup:hover {
+  background-color: #fff; 
+}
+
+
+.contener{
+    width: 795px;
+    height: 400px;
+    float: left;
+    margin-left: 10px;
+    
+  
+}
+video{
+    margin-top: -30px;
+}
+.mmsaid{
+    margin-top: 70px;
+ 
+    width: 1300px;
+    height: 600px;
+    float: left;
+    background-image:url(../media/Img/_121764-213.jpg);
+    background-position: center;
+    background-size:100%;
+}
+
+
+.tcont{
+    margin-top:-30px ;
+    width: 600px;
+    height: 500px;
+    margin-top: 100px;
+    float: left;
+   /* border:2px solid #aaa;*/
+
+}
+.tsaidbar{
+    width: 500px;
+    height: 400px;
+    float: left;
+ 
+    margin-left: 100px;
+    margin-top: 120px;
+}
+
+.tsaidbar img{
+    width: 500px;
+    height: 400px;
+  float: left;
+}
+.tsaidbar{
+    float: left;
+}
+.mcont{
+    
+    width: 1300px;
+    height: 600px;
+    float: left;
+    background-image:url(../media/Img/055032660.jpg);
+
+    background-position: center;
+    background-size:100%;
+    
+}
+
+
+/*3блок тренерлер*/
+#anketa{
+    width: 1300px;
+    height: 600px;
+   
+    background-image:url(../media/Img/3c_3.jpg);
+    float: left;
+    background-position: center;
+    background-size:100%;
+}
+
+* {box-sizing: border-box;}
+.product-item {
+  width: 300px;
+  text-align: center;
+  margin: 0 auto;
+  border-bottom: 2px solid #000000;
+  background: red;
+  font-family: "montserrat";
+  transition: .3s ease-in;
+  float: left;
+  margin-left: 8%;
+}
+.product-item:hover {border-bottom: 2px solid #fc5a5a;}
+.product-item img {
+  display: block;
+  width: 100%;
+}
+.product-list {
+  background: #fafafa;
+  padding: 15px 0;
+}
+.product-list h3 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #000000;
+  margin: 0 0 10px 0;
+}
+.price {
+  font-size: 16px;
+  color: #000000;
+  display: block;
+  margin-bottom: 12px;
+}
+.button {
+  text-decoration: none;
+  display: inline-block;
+  padding: 0 12px;
+  background: red;
+  color: rgb(8, 6, 6);
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 28px;
+  transition: .3s ease-in;
+}
+.product-item:hover .button {background: #aaa;}
+
+/*3блок тренерлер бытты*/
+
+
+
+
+
+
+/*карусель*/
+
+.corusel{
+    height: 500px;
+    width: 1300px;
+    float: left;
+    background-image:url(../media/Img/444.jpg);
+    background-position: center;
+    background-size:100%;
+   
+}
+div#carousel { 
+  perspective: 1200px; 
+ 
+  padding-top: 5%; 
+  font-size:0; 
+  margin-bottom: 3rem; 
+  overflow: hidden; 
+}
+figure#spinner { 
+  transform-style: preserve-3d; 
+  height: 300px; 
+  transform-origin: 50% 50% -500px; 
+  transition: 1s; 
+} 
+figure#spinner img { 
+  width: 40%; max-width: 425px; 
+  position: absolute; left: 30%;
+  transform-origin: 50% 50% -500px;
+  outline:1px solid transparent; 
+}
+figure#spinner img:nth-child(1) { transform:rotateY(0deg); 
+}
+figure#spinner img:nth-child(2) { transform: rotateY(-45deg); }
+figure#spinner img:nth-child(3) { transform: rotateY(-90deg); }
+figure#spinner img:nth-child(4) { transform: rotateY(-135deg); }
+figure#spinner img:nth-child(5){ transform: rotateY(-180deg); }
+figure#spinner img:nth-child(6){ transform: rotateY(-225deg); }
+figure#spinner img:nth-child(7){ transform: rotateY(-270deg); }
+figure#spinner img:nth-child(8){ transform: rotateY(-315deg); }
+div#carousel ~ span { 
+  color: #fff; 
+  margin: 5%; 
+  display: inline-block; 
+  text-decoration: none; 
+  font-size: 2rem; 
+  transition: 0.6s color; 
+  position: relative; 
+  margin-top: -15rem; 
+  border-bottom: none; 
+  line-height: 0; }
+div#carousel ~ span:hover { color: #888; cursor: pointer; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*падик*/
+
+  .footer{
+    height:200% ;
+  }
+  .podval1{
+    width: 34%;
+    float: left;
+    margin-left: 2%
+  
+  }
+  .podval2{
+    width: 27%;
+    float: left;
+    margin-left: 4%
+  
+  }
+  .podval3{
+  /*border: 2px solid red;*/
+    width: 29%;
+    float: left;
+   margin-left: 4%
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+

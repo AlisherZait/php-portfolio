@@ -1,0 +1,175 @@
+body{
+    background-color:#000000; 
+    margin:10px 10px 10px 10px ;
+    font-family: Montserrat;
+
+}
+.logo{
+    width:50px; 
+    height:50px; 
+    margin:30px;
+}
+.logo img{
+    width:150px; 
+    height:150px;
+    float: left;  
+}
+.logifont{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-weight: 20;
+  
+    color:rgb(170, 12, 12);
+    margin-left:40px ;
+    margin-top: -140px;
+    float: left;
+   
+}
+.header{
+    width:1300px;
+    height:200px;
+   
+    float: left;
+}
+.menu{
+    width:650px;
+    height:100px;
+
+    margin: -70px;
+    margin-left: 550px;
+    margin-top: -150px;
+    float: left;
+}
+a{
+    color: red;
+    font-size: 25px; 
+}
+#navbar {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  #navbar li { display: inline; }
+  #navbar {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    border: 2px solid red;
+    border-radius: 20px 5px;
+    width: 750px;
+    text-align: center;
+    background-color: black;
+  }
+  #navbar a {
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    width: 200px;
+  }
+  #navbar a:hover {
+    border-radius: 20px 5px;
+    background-color: red;
+  }
+  .banner1{
+
+    border: thistle solid 2px;
+  background-color: red;
+    float: left;
+    height: 350px;
+    width: 250px;
+    margin-left: 70px;
+   
+  }
+  .ban1{
+    margin-top: 150px;
+    color:#000000;
+    -webkit-transform: rotate(91deg);
+    -moz-transform: rotate(91deg); 
+    -o-transform: rotate(92deg); 
+    -ms-transform: rotate(92deg); 
+    transform: rotate(91deg); 
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+  }
+.ras1{
+  height: 350px;
+  width: 1000px;
+  border: ivory solid 2px;
+  
+  display: block; 
+  background-image:url(../media/Img/рас1.jpg);
+   float: left;
+  background-position: center;
+  background-size:100%;
+}
+.mras1{
+  margin-left: 170px;
+}
+.ras2{
+  float: left;
+  height: 350px;
+  width: 1000px;
+  border: ivory solid 2px;
+  display: block; 
+  background-image:url(../media/Img/рас2.webp);
+  background-position: center;
+  background-size:100%;
+  float: left;
+}
+
+.banner2{
+
+  border: thistle solid 2px;
+background-color: red;
+  float: left;
+  height: 350px;
+  width: 250px;
+ 
+ 
+}
+.ban2{
+  margin-top: 100px;
+  color:#000000;
+  -webkit-transform: rotate(-91deg);
+  -moz-transform: rotate(-91deg); 
+  -o-transform: rotate(-92deg); 
+  -ms-transform: rotate(-92deg); 
+  transform: rotate(-91deg); 
+  font-size: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+}
+
+.qw{
+  height: 400px;
+  width: 50px;
+ 
+}
+
+
+.footer{
+  height: 600px;
+}
+
+.podval1{
+  width: 34%;
+  float: left;
+  margin-left: 2%
+
+}
+.podval2{
+  width: 27%;
+  float: left;
+  margin-left: 4%
+
+}
+.podval3{
+/*border: 2px solid red;*/
+  width: 29%;
+  float: left;
+ margin-left: 4%
+}
